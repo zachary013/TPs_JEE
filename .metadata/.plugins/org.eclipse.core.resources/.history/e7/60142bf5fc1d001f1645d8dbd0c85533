@@ -1,0 +1,6 @@
+import java.util.ArrayList;
+
+public class Pile {
+	int sommet;
+	ArrayList<Integer> contenu = new ArrayList<Integer>();
+}

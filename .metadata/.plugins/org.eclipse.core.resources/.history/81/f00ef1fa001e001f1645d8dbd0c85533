@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Pile maPile = new Pile("maPile");
+		
+		maPile.contenu.add(6);
+		maPile.contenu.add(4);
+		maPile.contenu.add(9);
+		maPile.contenu.add(0);
+		
+		
+		
+
+}

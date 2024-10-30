@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public class Pile {
+	int sommet;
+	ArrayList<Integer> contenu = new ArrayList<Integer>();
+	String nom;
+	
+	public Pile(int sommet, ArrayList<Integer> contenu, String nom)
+	{
+		this.sommet = sommet;
+		this.contenu = contenu;
+		this.nom = nom;
+	}
+	
+	public void empiler(int x)
+	{
+		contenu.add(x);	
+	}
+	public int depiler()
+	{
+		
+	}
+}

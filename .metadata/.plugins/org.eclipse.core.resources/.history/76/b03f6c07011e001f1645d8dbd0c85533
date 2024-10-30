@@ -1,0 +1,19 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Pile maPile = new Pile("maPile");
+		
+		maPile.empiler(6);
+		maPile.empiler(4);
+		maPile.empiler(9);
+		maPile.empiler(0);
+		
+		System.out.println(maPile);
+		
+		int x = maPile.depiler();
+		
+		System.out.println("depiler avec succes!");
+		
+
+}
